@@ -1,4 +1,6 @@
 import useUpdate from './useUpdate';
+// import useBoolean from './useBoolean';
+import useToggle from './useToggle';
 
 // 弃用demo
 // const useControlledValue: typeof useControllableValue = function (...args) {
@@ -8,4 +10,4 @@ import useUpdate from './useUpdate';
 //   return useControllableValue(...args);
 // };
 
-export { useUpdate };
+export { useUpdate, useToggle };

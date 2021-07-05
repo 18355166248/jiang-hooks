@@ -1,3 +1,4 @@
+/// <reference path="../../../type.d.ts" />
 import React from 'react';
 import { useUpdate } from 'jiang-hooks';
 

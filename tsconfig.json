@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES6",
+    "module": "commonjs",
     "moduleResolution": "node",
     "importHelpers": true,
     "jsx": "react",
@@ -8,6 +9,7 @@
     "esModuleInterop": true,
     "sourceMap": true,
     "baseUrl": ".",
+    "rootDir": "./packages/",
     "paths": {
       "@/*": ["src/*"]
     },
