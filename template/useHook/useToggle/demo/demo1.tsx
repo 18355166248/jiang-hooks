@@ -1,8 +1,9 @@
+/// <reference path="../../../type.d.ts" />
 import React from 'react';
 import { useToggle } from 'jiang-hooks';
 
 export default () => {
-  const [state, { toggle, setLeft, setRight }] = useToggle('Hello', 'World');
+  const [state, { toggle }] = useToggle();
 
   return (
     <div>

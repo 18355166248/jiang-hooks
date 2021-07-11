@@ -1,5 +1,5 @@
 ---
-title: useUpdate
+title: useToggle
 nav:
   title: Hooks
   path: /hooks
