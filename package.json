@@ -3,7 +3,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alibaba/hooks.git"
+    "url": "git+https://github.com/18355166248/jiang-hooks.git"
   },
   "scripts": {
     "init": "rm -rf node_modules && yarn && npm run clean && npm run bootstrap && npm run build",
