@@ -40,6 +40,7 @@
     "husky": "^4.2.5",
     "jest": "^26.1.0",
     "lerna": "3.20.2",
+    "lint-staged": "^11.0.1",
     "mockjs": "^1.1.0",
     "prettier": "^2.0.5",
     "pretty-quick": "^2.0.1",
@@ -53,7 +54,14 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged"
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "*.test.ts": "npm run test-coverage",
+    "*.{js|ts|tsx}": [
+      "eslint --cache --fix",
+      "prettier --write"
+    ]
   }
 }
