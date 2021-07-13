@@ -58,11 +58,12 @@
     }
   },
   "lint-staged": {
-    "*.test.ts": "npm run test-coverage",
-    "*.{js|ts|tsx}": [
+    "src/**/*.test.ts": "npm run test-coverage",
+    "src/**/*.{js|ts|tsx}": [
       "eslint --cache --fix",
       "prettier --write",
-      "pretty-quick --staged"
+      "pretty-quick --staged",
+      "git add"
     ]
   }
 }
