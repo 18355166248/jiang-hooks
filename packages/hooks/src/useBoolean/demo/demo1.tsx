@@ -9,7 +9,9 @@ export default () => {
       <p>Effects: {`${state}`}</p>
       <div>
         <button onClick={() => toggle()}>Toggle</button>
-        <button onClick={() => setFalse()}>Toggle False</button>
+        <button onClick={() => setFalse()} style={{ margin: '0 8px' }}>
+          Toggle False
+        </button>
         <button onClick={() => setTrue()}>Toggle True</button>
       </div>
     </div>

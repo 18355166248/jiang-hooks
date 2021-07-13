@@ -1,6 +1,7 @@
 import useUpdate from './useUpdate';
 import useToggle from './useToggle';
 import useBoolean from './useBoolean';
+import useEventEmitter from './useEventEmitter';
 
 // 弃用demo
 // const useControlledValue: typeof useControllableValue = function (...args) {
@@ -10,4 +11,4 @@ import useBoolean from './useBoolean';
 //   return useControllableValue(...args);
 // };
 
-export { useUpdate, useToggle, useBoolean };
+export { useUpdate, useToggle, useBoolean, useEventEmitter };
