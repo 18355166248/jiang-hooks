@@ -2,6 +2,8 @@ import useUpdate from './useUpdate';
 import useToggle from './useToggle';
 import useBoolean from './useBoolean';
 import useEventEmitter from './useEventEmitter';
+import useCreation from './useCreation';
+import usePersistFn from './usePersistFn';
 
 // 弃用demo
 // const useControlledValue: typeof useControllableValue = function (...args) {
@@ -11,4 +13,4 @@ import useEventEmitter from './useEventEmitter';
 //   return useControllableValue(...args);
 // };
 
-export { useUpdate, useToggle, useBoolean, useEventEmitter };
+export { useUpdate, useToggle, useBoolean, useEventEmitter, useCreation, usePersistFn };
