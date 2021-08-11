@@ -22,10 +22,9 @@
     "email": "643546122@qq.com"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.com/",
     "access": "public"
   },
   "repository": "https://github.com/18355166248/jiang-hooks",
   "homepage": "https://github.com/18355166248/jiang-hooks",
-  "gitHead": "9a7468ae37aac24a5a7ad61ceb145102bbccc875"
+  "gitHead": "1bd248f87e7f49905a2a5135a9602667e5153315"
 }
