@@ -20,7 +20,7 @@
     "lint": "eslint \"packages/*/src/**/*.{ts,tsx}\"",
     "build:doc": "dumi build",
     "pub:doc": "surge ./dist --domain ahooks.js.org",
-    "pub": "lerna publish"
+    "publish": "lerna publish"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.3",
