@@ -15,5 +15,16 @@
   "peerDependencies": {
     "antd": "4.8.2",
     "react": "^16.13.1"
-  }
+  },
+  "sideEffects": false,
+  "authors": {
+    "name": "18355166248",
+    "email": "643546122@qq.com"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.com/"
+  },
+  "repository": "https://github.com/18355166248/jiang-hooks",
+  "homepage": "https://github.com/18355166248/jiang-hooks",
+  "gitHead": "916cf21d2fdee487594cd66a2b7cc0cd5c4e70fd"
 }
