@@ -1,6 +1,6 @@
 {
   "name": "jiang-hooks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./lib/index.js",
   "module": "./es/index.js",
@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "peerDependencies": {
-    "react": "^16.13.1",
-    "antd": "4.8.2"
+    "antd": "4.8.2",
+    "react": "^16.13.1"
   }
 }
