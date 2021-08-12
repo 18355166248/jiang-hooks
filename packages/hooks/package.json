@@ -1,7 +1,7 @@
 {
   "name": "jiang-hooks",
   "version": "1.0.8",
-  "description": "",
+  "description": "测试提交npm",
   "main": "./lib/index.js",
   "module": "./es/index.js",
   "types": "./lib/index.d.ts",
