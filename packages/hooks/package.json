@@ -16,13 +16,21 @@
     "antd": "4.8.2",
     "react": "^16.13.1"
   },
+  "files": [
+    "dist",
+    "es",
+    "lib",
+    "package.json",
+    "README.md"
+  ],
   "sideEffects": false,
   "authors": {
     "name": "18355166248",
     "email": "643546122@qq.com"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npm.taobao.org/"
   },
   "repository": "https://github.com/18355166248/jiang-hooks",
   "homepage": "https://github.com/18355166248/jiang-hooks",
