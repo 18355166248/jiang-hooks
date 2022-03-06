@@ -1,5 +1,5 @@
 import React from 'react';
-import { useToggle } from 'jiang-hooks';
+import { useToggle } from 'jhooks';
 
 export default () => {
   const [state, { toggle, setLeft, setRight }] = useToggle('Hello', 'World');

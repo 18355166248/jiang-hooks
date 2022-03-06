@@ -1,9 +1,9 @@
 {
-  "name": "jiang-hooks",
+  "name": "jhooks",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/18355166248/jiang-hooks.git"
+    "url": "git+https://github.com/18355166248/jhooks.git"
   },
   "publishConfig": {},
   "scripts": {

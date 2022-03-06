@@ -1,5 +1,5 @@
 import React from 'react';
-import { useBoolean } from 'jiang-hooks';
+import { useBoolean } from 'jhooks';
 
 export default () => {
   const [state, { toggle, setTrue, setFalse }] = useBoolean();

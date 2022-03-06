@@ -1,5 +1,5 @@
 import React from 'react';
-import { useUpdate } from 'jiang-hooks';
+import { useUpdate } from 'jhooks';
 
 export default () => {
   const update = useUpdate();

@@ -1,5 +1,5 @@
 import React from 'react';
-import { useEventEmitter } from 'jiang-hooks';
+import { useEventEmitter } from 'jhooks';
 import InputBox from './InputBox';
 import View from './View';
 

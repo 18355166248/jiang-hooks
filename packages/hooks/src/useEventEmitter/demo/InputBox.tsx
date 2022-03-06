@@ -1,5 +1,5 @@
 import React, { useRef, FC } from 'react';
-import { EventEmitter } from 'jiang-hooks/lib/useEventEmitter';
+import { EventEmitter } from 'jhooks/lib/useEventEmitter';
 
 const InputBox: FC<{
   focus$: EventEmitter<void>;

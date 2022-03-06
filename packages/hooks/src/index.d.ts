@@ -1,4 +1,4 @@
-declare module 'jiang-hooks';
+declare module 'jhooks';
 // {
 //   function useUpdate(): any;
 //   function useBoolean(): any;

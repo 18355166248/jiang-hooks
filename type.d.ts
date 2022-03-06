@@ -1,2 +1,2 @@
 declare module 'gulpfile';
-declare module 'jiang-hooks';
+declare module 'jhooks';

@@ -1,5 +1,5 @@
 {
-  "name": "jiang-hooks",
+  "name": "jhooks",
   "version": "1.0.11",
   "description": "测试提交npm",
   "main": "./lib/index.js",
@@ -31,7 +31,7 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "repository": "https://github.com/18355166248/jiang-hooks",
-  "homepage": "https://github.com/18355166248/jiang-hooks",
+  "repository": "https://github.com/18355166248/jhooks",
+  "homepage": "https://github.com/18355166248/jhooks",
   "gitHead": "7dbb3a9a214f113704bbb7f5ab658f19a6793128"
 }

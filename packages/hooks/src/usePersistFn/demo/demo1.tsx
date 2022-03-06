@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from 'react';
-import { usePersistFn } from 'jiang-hooks';
+import { usePersistFn } from 'jhooks';
 import { message } from 'antd';
 import ViewCount from './ViewCount';
 

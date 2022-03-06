@@ -25,7 +25,7 @@ export default {
     ],
   ],
   mode: 'site',
-  title: 'jiang-hooks',
+  title: 'jhooks',
   // favicon: '/simple-logo.svg',
   // logo: '/logo.svg',
   dynamicImport: {},

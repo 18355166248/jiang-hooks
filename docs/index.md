@@ -1,5 +1,5 @@
 ---
-title: jiang-hooks - React Hooks Library
+title: jhooks - React Hooks Library
 hero:
   title: Jiang Hooks
   desc: React Hooks 实践
@@ -15,8 +15,8 @@ features:
 
 ```bash
 // 安装依赖
-npm i jiang-hooks --save
+npm i jhooks --save
 
 // 使用 Hooks
-import { useRequest } from 'jiang-hooks';
+import { useRequest } from 'jhooks';
 ```

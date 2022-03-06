@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { EventEmitter } from 'jiang-hooks/lib/useEventEmitter';
+import { EventEmitter } from 'jhooks/lib/useEventEmitter';
 
 interface Props {
   focus$: EventEmitter<void>;
