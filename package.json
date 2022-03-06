@@ -1,9 +1,9 @@
 {
-  "name": "jhooks",
+  "name": "shooks",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/18355166248/jhooks.git"
+    "url": "git+https://github.com/18355166248/shooks.git"
   },
   "publishConfig": {},
   "scripts": {

@@ -1,5 +1,5 @@
 import React, { useState, useRef, useMemo } from 'react';
-import { useCreation } from 'jhooks';
+import { useCreation } from 'shooks';
 
 class Foo {
   constructor(name) {

@@ -1,5 +1,5 @@
 {
-  "name": "jhooks",
+  "name": "shooks",
   "version": "1.1.0",
   "description": "测试提交npm",
   "main": "./lib/index.js",
@@ -31,7 +31,7 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "repository": "https://github.com/18355166248/jhooks",
-  "homepage": "https://github.com/18355166248/jhooks",
-  "gitHead": "7dbb3a9a214f113704bbb7f5ab658f19a6793128"
+  "repository": "https://github.com/18355166248/shooks",
+  "homepage": "https://github.com/18355166248/shooks",
+  "gitHead": "629c44f5892f31e8ec32ff981e8208b4fe9ead35"
 }

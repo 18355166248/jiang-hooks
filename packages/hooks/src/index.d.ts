@@ -1,4 +1,4 @@
-declare module 'jhooks';
+declare module 'shooks';
 // {
 //   function useUpdate(): any;
 //   function useBoolean(): any;

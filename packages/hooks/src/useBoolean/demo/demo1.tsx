@@ -1,5 +1,5 @@
 import React from 'react';
-import { useBoolean } from 'jhooks';
+import { useBoolean } from 'shooks';
 
 export default () => {
   const [state, { toggle, setTrue, setFalse }] = useBoolean();

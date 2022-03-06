@@ -1,5 +1,5 @@
 import React from 'react';
-import { useUpdate } from 'jhooks';
+import { useUpdate } from 'shooks';
 
 export default () => {
   const update = useUpdate();

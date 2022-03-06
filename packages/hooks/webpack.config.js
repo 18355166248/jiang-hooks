@@ -5,7 +5,7 @@ const path = require('path');
 module.exports = merge(common, {
   entry: './es/index.js',
   output: {
-    filename: 'jhooks.js',
+    filename: 'shooks.js',
     library: 'jiangHooks',
     path: path.resolve(__dirname, './dist'),
   },

@@ -1,5 +1,5 @@
 import React from 'react';
-import { useEventEmitter } from 'jhooks';
+import { useEventEmitter } from 'shooks';
 import InputBox from './InputBox';
 import View from './View';
 
