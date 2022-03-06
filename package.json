@@ -5,9 +5,7 @@
     "type": "git",
     "url": "git+https://github.com/18355166248/jiang-hooks.git"
   },
-  "publishConfig": {
-
-  },
+  "publishConfig": {},
   "scripts": {
     "init": "rm -rf node_modules && yarn && npm run clean && npm run bootstrap && npm run build",
     "start": "npm run dev",
@@ -25,6 +23,7 @@
   "devDependencies": {
     "@babel/cli": "^7.10.3",
     "@babel/core": "^7.10.3",
+    "@babel/plugin-syntax-optional-chaining": "^7.8.3",
     "@testing-library/react": "^10.4.3",
     "@testing-library/react-hooks": "^7.0.1",
     "@types/jest": "^26.0.3",

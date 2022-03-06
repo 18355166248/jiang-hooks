@@ -40,4 +40,5 @@ export default {
     'zh-CN': [null, { title: 'GitHub', path: 'https://github.com/alibaba/hooks' }],
     'en-US': [null, { title: 'GitHub', path: 'https://github.com/alibaba/hooks' }],
   },
+  locales: [['zh-CN', '中文']],
 };
