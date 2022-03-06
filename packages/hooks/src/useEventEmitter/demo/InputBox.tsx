@@ -1,5 +1,5 @@
 import React, { useRef, FC } from 'react';
-import { EventEmitter } from 'shooks/lib/useEventEmitter';
+import { EventEmitter } from 'mihooks/lib/useEventEmitter';
 
 const InputBox: FC<{
   focus$: EventEmitter<void>;

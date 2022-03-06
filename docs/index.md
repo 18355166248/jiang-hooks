@@ -1,5 +1,5 @@
 ---
-title: shooks - React Hooks Library
+title: mihooks - React Hooks Library
 hero:
   title: Jiang Hooks
   desc: React Hooks 实践
@@ -15,8 +15,8 @@ features:
 
 ```bash
 // 安装依赖
-npm i shooks --save
+npm i mihooks --save
 
 // 使用 Hooks
-import { useRequest } from 'shooks';
+import { useRequest } from 'mihooks';
 ```

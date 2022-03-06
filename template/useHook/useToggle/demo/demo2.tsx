@@ -1,6 +1,6 @@
 /// <reference path="../../../type.d.ts" />
 import React from 'react';
-import { useToggle } from 'shooks';
+import { useToggle } from 'mihooks';
 
 export default () => {
   const [state, { toggle, setLeft, setRight }] = useToggle('Hello', 'World');

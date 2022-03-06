@@ -25,7 +25,7 @@ export default {
     ],
   ],
   mode: 'site',
-  title: 'shooks',
+  title: 'mihooks',
   // favicon: '/simple-logo.svg',
   // logo: '/logo.svg',
   dynamicImport: {},

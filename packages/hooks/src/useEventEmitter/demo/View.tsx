@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { EventEmitter } from 'shooks/lib/useEventEmitter';
+import { EventEmitter } from 'mihooks/lib/useEventEmitter';
 
 interface Props {
   focus$: EventEmitter<void>;

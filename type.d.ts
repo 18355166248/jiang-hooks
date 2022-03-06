@@ -1,2 +1,2 @@
 declare module 'gulpfile';
-declare module 'shooks';
+declare module 'mihooks';

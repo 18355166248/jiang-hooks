@@ -1,5 +1,5 @@
 import React from 'react';
-import { useToggle } from 'shooks';
+import { useToggle } from 'mihooks';
 
 export default () => {
   const [state, { toggle }] = useToggle();
