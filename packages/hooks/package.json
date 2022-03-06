@@ -5,7 +5,6 @@
   "main": "./lib/index.js",
   "module": "./es/index.js",
   "types": "./lib/index.d.ts",
-  "unpkg": "dist/ahooks.js",
   "scripts": {
     "build": "gulp && webpack-cli"
   },

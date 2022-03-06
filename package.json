@@ -15,9 +15,9 @@
     "build": "lerna run build",
     "test": "jest",
     "test-coverage": "npm run test -- --coverage --watchAll=false || exit 0",
-    "lint": "eslint \"packages/*/src/**/*.{ts,tsx}\"",
+    "lint": "eslint --ignore-pattern **/__tests__/* --ignore-pattern **/demo/* \"packages/*/src/**/*.{ts,tsx}\"",
     "build:doc": "dumi build",
-    "pub:doc": "surge ./dist --domain ahooks.js.org",
+    "pub:doc": "surge ./dist --domain vancouver.surge.sh",
     "publish": "lerna publish"
   },
   "devDependencies": {
@@ -66,5 +66,8 @@
       "prettier --write",
       "pretty-quick --staged"
     ]
+  },
+  "dependencies": {
+    "eslint-plugin-jest": "^26.1.1"
   }
 }
